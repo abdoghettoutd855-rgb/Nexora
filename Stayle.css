@@ -1,0 +1,65 @@
+/* Reset بسيط */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* خلفية الصفحة */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* الحاوية الرئيسية */
+.container {
+  text-align: center;
+  max-width: 700px;
+  padding: 40px 20px;
+}
+
+/* العنوان */
+.container h1 {
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+/* العنوان الفرعي */
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+/* الوصف */
+.description {
+  font-size: 1rem;
+  line-height: 1.7;
+  opacity: 0.85;
+  margin-bottom: 35px;
+}
+
+/* زر Start Now */
+.btn {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #00d4ff;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+/* تأثير عند المرور */
+.btn:hover {
+  background-color: #00aacc;
+  transform: scale(1.05);
+}
